@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" img="IE=edge">
+	<meta name="viewport" img="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./assets/style.css">
+	<link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:wght@300;700;900&display=swap"
+		rel="stylesheet">
+	<title>Cahee</title>
+</head>
+
+<body class="wrapper">
+	<!--FRESH-HEADER-->
+	<div class="wrapper-fresh" id="home">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__logo logo"><a class="logo__link" href="#">Cahee</a></div>
+				<div class="header__nav nav">
+					<ul class="nav__list">
+						<li class="nav__item"><a class="nav__link" href="#home">home</a></li>
+						<li class="nav__item"><a class="nav__link" href="#about">about</a></li>
+						<li class="nav__item"><a class="nav__link" href="#services">services</a></li>
+						<li class="nav__item"><a class="nav__link" href="#gallery">gallery</a></li>
+						<li class="nav__item"><a class="nav__link" href="#blog">blog</a></li>
+						<li class="nav__item"><a class="nav__link" href="#contact">contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<div class="page-fresh page">
+			<div class="main-fresh">
+				<h2 class="main-fresh__title">Fresh Life</h2>
+				<p class="main-fresh__text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+					ad minim veniam, quis nostrud exercitation ullamco.</p>
+				<button class="main-fresh__button" onclick="this.blur();">GET FREE NOW</button>
+			</div>
+			<div class="skroll-fresh"><img src="./img/scroll.png" alt="image-skroll"></div>
+		</div>
+	</div>
+	<!--ABOUT-->
+	<div class="wrapper-about" id="about">
+		<div class="page-about page">
+			<div class="image-about"><img class="image-about__image" src="./img/image_about.png" alt="image-about">
+			</div>
+			<div class="main-about">
+				<h2 class="main-about__title">About Us</h2>
+				<p class="main-about__text">Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+					ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+					voluptate velit esse cillum.</p>
+				<p class="main-about__text">Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit
+					voluptatem accusantium
+					doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+			</div>
+		</div>
+	</div>
+	<!--SERVICES-->
+	<div class="wrapper-services" id="services">
+		<div class="page-services page">
+			<div class="page-services__image"></div>
+			<main class="page-services__main main">
+				<div class="main__services-container services-container">
+					<div class="services-container__list-item">
+						<div class="services-container__item">
+							<div class="services-container__title">
+								<p class="services-container__text">Online Shopping</p>
+							</div>
+							<div class="services-container__logo _icon-cart"></div>
+						</div>
+						<div class="services-container__item">
+							<div class="services-container__title">
+								<p class="services-container__text">Quality Product</p>
+							</div>
+							<div class="services-container__logo _icon-hand"></div>
+						</div>
+						<div class="services-container__item">
+							<div class="services-container__title">
+								<p class="services-container__text">Domestic & International Delivery</p>
+							</div>
+							<div class="services-container__logo _icon-planet"></div>
+						</div>
+						<div class="services-container__item">
+							<div class="services-container__title">
+								<p class="services-container__text">Well Organized</p>
+							</div>
+							<div class="services-container__logo _icon-carrot"></div>
+						</div>
+					</div>
+				</div>
+				<div class="main__title-container">
+					<h1 class="main__title">Our Services</h1>
+				</div>
+			</main>
+		</div>
+	</div>
+	<!--GALLERY-->
+	<div class="wrapper-gallery" id="gallery">
+		<div class="page-gallery page">
+			<header class="header-gallery">
+				<h1 class="header-gallery__title">Gallary</h1>
+				<p class="header-gallery__subtitle">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+					labore et
+					dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+					aliquip ex ea commodo consequat.</p>
+			</header>
+			<main class="main-gallery">
+				<img class="main-gallery__image _image-big" src="./img/image-gallery-big.jpg" alt="image_1">
+				<div class="main-gallery__small-container">
+					<img class="main-gallery__image _image-small" src="./img/image-gallery-small_1.jpg" alt="image_2">
+					<img class="main-gallery__image _image-small" src="./img/image-gallery-small_2.jpg" alt="image_3">
+				</div>
+				<img class="main-gallery__image _image-normal" src="./img/image-gallery-normal_1.jpg" alt="image_4">
+				<img class="main-gallery__image _image-normal" src="./img/image-gallery-normal_2.jpg" alt="image_5">
+			</main>
+			<button class="button-gallery" onclick="this.blur();">VIEW MORE</button>
+		</div>
+	</div>
+	<!--SUBSCRIBE-->
+	<div class="wrapper-subscribe">
+		<div class="inner-subscribe">
+			<div class="page-subscribe page">
+				<h2 class="page-subscribe__title">Subscribe To Us</h2>
+				<p class="page-subscribe__text">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+					incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+				<form class="page-subscribe__form from" action="" method="get" id="mail-form"></form>
+				<input class="form__input" type="email" name="email" id="email" form="mail-from"
+					placeholder="Your email address...">
+				<input class="form__btn" type="submit" value="Subscribe" onclick="this.blur();" form="mail-from">
+			</div>
+		</div>
+	</div>
+	<!--BLOG-->
+	<div class="wrapper-blog" id="blog">
+		<div class="page-blog page">
+			<header class="header-blog">
+				<h1 class="header-blog__title">Blog</h1>
+				<p class="header-blog__text">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+					ullamco
+					laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+					velit.</p>
+			</header>
+			<main class="main-blog">
+				<div class="main-container _container_1">
+					<img class="main-container__image" src="./img/background-blog_1.png" alt="image">
+					<div class="main-container__date">
+						<span class="main-container__date_top">20</span><br>
+						<span class="main-container__date_bottom">NOV</span>
+					</div>
+					<h2 class="main-container__title">Green Smoothies: Too Much of a Good Thing?</h2>
+					<p class="main-container__subtitle">By Auskteez - 2 hours ago</p>
+				</div>
+				<div class="main-container _container_2">
+					<img class="main-container__image" src="./img/background-blog_2.png" alt="image">
+					<div class="main-container__date">
+						<span class="main-container__date_top">14</span><br>
+						<span class="main-container__date_bottom">NOV</span>
+					</div>
+					<h2 class="main-container__title">Growing Food and a “Thirst” for Innovation</h2>
+					<p class="main-container__subtitle">By Auskteez - 3 hours ago</p>
+				</div>
+				<div class="main-container _container_3">
+					<img class="main-container__image" src="./img/background-blog_3.png" alt="image">
+					<div class="main-container__date">
+						<span class="main-container__date_top">10</span><br>
+						<span class="main-container__date_bottom">NOV</span>
+					</div>
+					<h2 class="main-container__title">Pesticides & Food: What You Need to Know</h2>
+					<p class="main-container__subtitle">By Auskteez - 6 hours ago</p>
+				</div>
+			</main>
+			<button class="button-blog" onclick="this.blur();">VIEW MORE</button>
+		</div>
+	</div>
+	<!--CONTACT-FOOTER-->
+	<div class="wrapper-contact" id="contact">
+		<div class="page-contact page">
+			<header class="header-contact">
+				<h2 class="header-contact__title">Contact</h2>
+				<p class="header-contact__text">For new projects, ideas, business or anything
+					you'd like to discuss, contact with me!</p>
+			</header>
+			<main class="main-contact">
+				<form action=" " method="get" id="data">
+					<div class="main-contact__container-form-contacts container-form-contacts">
+						<div class="container-form-contacts__form form">
+							<input class="form__n-e-n" type="text" name="name" id="name" form="data" placeholder="Your name..."
+								autocomplete="on">
+							<input class="form__n-e-n" type="email" name="email" id="mail" form="data"
+								placeholder="Your phone email...">
+							<input class="form__n-e-n" type="tel" name="ph-number" id="ph-number" form="data"
+								placeholder="Your phone number..." maxlength="13" minlength="13" required>
+							<div class="from-error">Format must be +380</div>
+							<textarea class="form__message" name="message" id="message" cols="30" rows="10" maxlength="280"
+								placeholder="Your message..." form="data"></textarea>
+						</div>
+						<div class="container-form-contacts__contacts contacts">
+							<h3 class="contacts__sub">Adress</h3>
+							<p class="contacts__text">123 City name, Street, City, Country</p>
+							<h3 class="contacts__sub">Email</h3>
+							<p class="contacts__text">cahee@domain.com</p>
+							<h3 class="contacts__sub">Phone</h3>
+							<p class="contacts__text">+012 345 6789</p>
+							<input class="container-form-contacts__button" onclick="this.blur();" type="submit" value="Send">
+						</div>
+					</div>
+				</form>
+			</main>
+		</div>
+		<footer class="footer-contact">
+			<div class="footer-contact__container">
+				<p class="footer-contact__text_left">© 2015 Company. All right reserved.</p>
+				<p class="footer-contact__logo">Cahee</p>
+				<p class="footer-contact__text_right text-right">Made with <span class="text-right_red-big">love</span>
+					by Auskteez</p>
+			</div>
+		</footer>
+	</div>
+</body>
+
+</html>
